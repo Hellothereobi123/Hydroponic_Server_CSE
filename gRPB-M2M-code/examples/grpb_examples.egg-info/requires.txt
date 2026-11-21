@@ -1,0 +1,9 @@
+grpb-m2m[cbor]
+psutil>=5.9
+
+[pi]
+gpiozero>=2.0
+lgpio>=0.2
+
+[plot]
+matplotlib>=3.8

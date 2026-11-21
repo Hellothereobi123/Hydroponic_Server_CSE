@@ -1,0 +1,9 @@
+grpcio>=1.66
+protobuf>=7.35
+paho-mqtt>=2.0
+
+[cbor]
+cbor2>=5.6
+
+[codegen]
+grpcio-tools>=1.66

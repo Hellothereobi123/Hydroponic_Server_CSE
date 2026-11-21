@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: grpb-examples
+Version: 0.1.0
+Summary: Sample apps and simulations for gRPB-M2M: temperature demo, FarmNet, PulseWatch, SafeSwitch
+Requires-Python: >=3.11
+Requires-Dist: grpb-m2m[cbor]
+Requires-Dist: psutil>=5.9
+Provides-Extra: pi
+Requires-Dist: gpiozero>=2.0; extra == "pi"
+Requires-Dist: lgpio>=0.2; extra == "pi"
+Provides-Extra: plot
+Requires-Dist: matplotlib>=3.8; extra == "plot"
